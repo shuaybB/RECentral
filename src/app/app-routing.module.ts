@@ -12,6 +12,7 @@ import { TaskPageComponent } from './task-page/task-page.component';
 
 const routes: Routes = [
   { path: 'login', component: LoginComponent },
+ 
   { path: 'admin', component: AdminDashboardComponent },
   { path: 'employee', component: EmployeeDashboardComponent },
   { path: 'customer', component: CustomerDashboardComponent },
