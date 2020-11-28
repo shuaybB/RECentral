@@ -7,13 +7,11 @@ import { EmployeeDashboardComponent } from './employee-dashboard/employee-dashbo
 import { LoginComponent } from './login/login.component';
 import { ManageCustomersComponent } from './manage-customers/manage-customers.component';
 import { ManageEmployeesComponent } from './manage-employees/manage-employees.component';
-import { SignupComponent } from './signup/signup.component';
 import { TaskPageComponent } from './task-page/task-page.component';
 
 
 const routes: Routes = [
   { path: 'login', component: LoginComponent },
-  { path: 'signup', component: SignupComponent },
   { path: 'admin', component: AdminDashboardComponent },
   { path: 'employee', component: EmployeeDashboardComponent },
   { path: 'customer', component: CustomerDashboardComponent },
