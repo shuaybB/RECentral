@@ -9,7 +9,6 @@
             <table>
                 <tr style="border-bottom: 3px solid #cd3705;">
                     <th></th>
-
                     <th>Name</th>
                     <th>Join Date</th>
                     <th>Contact Number</th>
@@ -20,11 +19,11 @@
                     <td >{{Customer.Name}}</td>
                     <td>{{Customer.JoinDate}}</td>
                     <td>{{Customer.Phone}}</td>
-                    <td>{{Customer.PropertyType}}</td>
+                    <td> <div class="propertyType">{{Customer.PropertyType}}</div> </td>
                 </tr>
             </table>
-            <div>
-                <img class="addButton" src="../../assets/red button.png">
+            <div class="btnContainer">
+                <img class="addButton" src="../../assets/red button.png" routerLink="/add-customer">
             </div>
     </div> 
 
