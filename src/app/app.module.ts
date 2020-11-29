@@ -12,6 +12,7 @@ import { ManageEmployeesComponent } from './manage-employees/manage-employees.co
 import { EmailPageComponent } from './email-page/email-page.component';
 import { TaskPageComponent } from './task-page/task-page.component';
 import { CustomerContactFormComponent } from './customer-contact-form/customer-contact-form.component';
+import { UpdateContactFormComponent } from './update-contact-form/update-contact-form.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { CustomerContactFormComponent } from './customer-contact-form/customer-c
     ManageEmployeesComponent,
     EmailPageComponent,
     TaskPageComponent,
-    CustomerContactFormComponent
+    CustomerContactFormComponent,
+    UpdateContactFormComponent
   ],
   imports: [
     BrowserModule,

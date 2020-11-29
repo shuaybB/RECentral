@@ -9,6 +9,7 @@ import { LoginComponent } from './login/login.component';
 import { ManageCustomersComponent } from './manage-customers/manage-customers.component';
 import { ManageEmployeesComponent } from './manage-employees/manage-employees.component';
 import { TaskPageComponent } from './task-page/task-page.component';
+import { UpdateContactFormComponent } from './update-contact-form/update-contact-form.component';
 
 
 const routes: Routes = [
@@ -19,6 +20,7 @@ const routes: Routes = [
   { path: 'customer', component: CustomerDashboardComponent },
   { path: 'manage-customers', component: ManageCustomersComponent },
   { path: 'add-customer', component: CustomerContactFormComponent },
+  { path: 'edit-customer', component: UpdateContactFormComponent },
   { path: 'manage-employees', component: ManageEmployeesComponent },
   { path: 'email', component: EmailPageComponent },
   { path: 'tasks', component: TaskPageComponent },

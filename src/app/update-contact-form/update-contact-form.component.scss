@@ -68,7 +68,11 @@
         margin: auto;
         label {
             font-family: 'Roboto';
-            // display: inline-block;
+            
+        }
+        p {
+            margin-left: 10px;
+            display: inline-block;
         }
         input {
             display: inline-block;
@@ -78,8 +82,6 @@
             background-color: white;
             width: 200px;
             margin: 10px;
-           
-
         }
     
     }
