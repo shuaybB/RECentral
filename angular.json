@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "RECentral"
+    }
+  },
+  "defaultProject": "RECentral",
+  "cli": {
+    "analytics": "18a75191-3eb1-4782-8638-74bbf3ded851"
+  }
 }
